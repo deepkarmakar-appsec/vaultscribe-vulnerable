@@ -4,7 +4,6 @@ Intentionally Vulnerable Notes Application for AppSec Training, Secure Coding Pr
 
 # 📊 Vulnerability Statistics
 
-Total Vulnerabilities Implemented: 20+
 
 Categories Covered:
 
@@ -38,11 +37,9 @@ Categories Covered:
 reports/
 ├── sqli.md
 ├── xss.md
-├── csrf.md
 ├── idor.md
 ├── ssrf.md
-├── privilege-escalation.md
-└── file-upload.md
+├── massassinment.md
 ```
 
 Each report includes:
