@@ -1,0 +1,258 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg: #0a0a0f;
+    --surface: #111118;
+    --border: #222233;
+    --accent: #6c63ff;
+    --accent2: #ff6584;
+    --accent3: #43e97b;
+    --text: #e8e8f0;
+    --muted: #555570;
+    --glow: rgba(108, 99, 255, 0.35);
+}
+
+body {
+    background: var(--bg);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Syne', sans-serif;
+    color: var(--text);
+    overflow: hidden;
+}
+
+.blob {
+    position: fixed;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.12;
+    pointer-events: none;
+    animation: drift 12s ease-in-out infinite alternate;
+}
+
+.blob1 {
+    width: 500px;
+    height: 500px;
+    background: var(--accent);
+    top: -150px;
+    left: -150px;
+}
+
+.blob2 {
+    width: 400px;
+    height: 400px;
+    background: var(--accent2);
+    bottom: -100px;
+    right: -100px;
+}
+
+.blob3 {
+    width: 300px;
+    height: 300px;
+    background: var(--accent3);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes drift {
+    from {
+        transform: translate(0, 0) scale(1);
+    }
+    to {
+        transform: translate(30px, 20px) scale(1.05);
+    }
+}
+
+.container {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    max-width: 520px;
+    padding: 16px;
+}
+
+.card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    padding: 40px 36px 32px;
+    backdrop-filter: blur(20px);
+    box-shadow:
+        0 0 0 1px rgba(255,255,255,0.04) inset,
+        0 32px 64px rgba(0,0,0,0.6),
+        0 0 80px var(--glow);
+}
+
+.header {
+    margin-bottom: 28px;
+}
+
+.header-tag {
+    font-size: 11px;
+    color: var(--accent);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.header p {
+    font-size: 12px;
+    color: var(--muted);
+}
+
+.drop-zone {
+    border: 2px dashed var(--border);
+    border-radius: 16px;
+    padding: 48px 24px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.drop-zone:hover,
+.drop-zone.dragover {
+    border-color: var(--accent);
+    background: rgba(108,99,255,0.05);
+}
+
+.dz-title {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.dz-sub {
+    font-size: 11px;
+    color: var(--muted);
+}
+
+.dz-browse {
+    color: var(--accent);
+    cursor: pointer;
+}
+
+.file-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.file-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.file-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.file-info {
+    flex: 1;
+}
+
+.file-name {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.file-meta {
+    font-size: 10px;
+    color: var(--muted);
+}
+
+.file-progress {
+    height: 2px;
+    background: var(--border);
+    margin-top: 6px;
+}
+
+.file-progress-bar {
+    height: 100%;
+    width: 0;
+    background: linear-gradient(
+        90deg,
+        var(--accent),
+        var(--accent3)
+    );
+}
+
+.upload-btn {
+    width: 100%;
+    margin-top: 20px;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(
+        135deg,
+        var(--accent),
+        #8b5cf6
+    );
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.upload-btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.success-bar {
+    background: rgba(67,233,123,0.08);
+    border: 1px solid rgba(67,233,123,0.2);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 12px;
+    color: var(--accent3);
+}
+
+.stat-bar {
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+}
+
+.stat {
+    flex: 1;
+    text-align: center;
+}
+
+.stat-val {
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--accent);
+}
+
+.stat-label {
+    font-size: 10px;
+    color: var(--muted);
+}
+
+input[type="file"] {
+    display: none;
+}
