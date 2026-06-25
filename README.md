@@ -1,6 +1,3 @@
-<img width="1898" height="960" alt="25 06 2026_20 41 50_REC" src="https://github.com/user-attachments/assets/0f8b10f7-8cf6-4371-bf1b-5a47c501d390" /># vaultscribe-vuln
-Intentionally Vulnerable Notes Application for AppSec Training, Secure Coding Practice, and Vulnerability Demonstration.
----
 ### Vulnerable Dashboard
 
 ![Vulnerable Dashboard](https://github.com/user-attachments/assets/382b3d44-543b-4296-b7b2-86c946274492)
