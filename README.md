@@ -1,114 +1,91 @@
-<div align="center">
+🛡️ VaultScribe-Vuln
 
-# 🛡️ VaultScribe-Vuln
+«Intentionally Vulnerable Laravel Application for Application Security Training»
 
-### Intentionally Vulnerable Notes Platform • Application Security • Secure Coding • OWASP Top 10
+VaultScribe-Vuln is an intentionally vulnerable notes application built to demonstrate real-world web application vulnerabilities, secure coding mistakes, and remediation techniques.
 
-*An intentionally vulnerable Laravel application built for Application Security training, vulnerability research, secure coding practice, and penetration testing. Designed for educational use in isolated lab environments only.*
-
-<br>
-
-<img src="https://img.shields.io/badge/Laravel-12-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
-<img src="https://img.shields.io/badge/PHP-8.3-777BB4?style=for-the-badge&logo=php&logoColor=white">
-<img src="https://img.shields.io/badge/MySQL-8-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
-<img src="https://img.shields.io/badge/OWASP-Top%2010-red?style=for-the-badge">
-<img src="https://img.shields.io/badge/Application-Security-orange?style=for-the-badge">
-<img src="https://img.shields.io/badge/Educational-Only-yellow?style=for-the-badge">
-<img src="https://img.shields.io/badge/Not%20for-Production-critical?style=for-the-badge">
-
-<br><br>
-
-### Vulnerable Dashboard
-
-![VaultScribe-Vuln Dashboard](https://github.com/user-attachments/assets/382b3d44-543b-4296-b7b2-86c946274492)
+⚠️ Educational Purpose Only
+This project is designed for learning and security research. Do not deploy it to production.
 
 ---
 
-# 📊 Vulnerability Statistics
+Tech Stack
 
-**VaultScribe-Vuln** intentionally includes multiple real-world web application vulnerabilities for security learning, secure coding practice, and penetration testing.
-
-### Categories Covered
-
-* Authentication Vulnerabilities
-* Authorization Vulnerabilities
-* Session Management Vulnerabilities
-* Access Control Vulnerabilities
-* File Upload Vulnerabilities
-* AI Security Vulnerabilities
-* SSRF Vulnerabilities
-* Security Misconfigurations
-* Cryptographic Weaknesses
+- Laravel 12
+- PHP 8.3
+- MySQL 8
 
 ---
 
-# 🧪 OWASP Top 10 Mapping
+Dashboard
 
-* A01 Broken Access Control
-* A02 Cryptographic Failures
-* A03 Injection
-* A04 Insecure Design
-* A05 Security Misconfiguration
-* A07 Identification and Authentication Failures
-* A09 Security Logging and Monitoring Failures
+"VaultScribe-Vuln Dashboard" (https://github.com/user-attachments/assets/382b3d44-543b-4296-b7b2-86c946274492)
 
 ---
 
-# 📑 Vulnerability Reports
+Vulnerabilities Included
 
-```text
+- SQL Injection (SQLi)
+- Cross-Site Scripting (XSS)
+- Insecure Direct Object Reference (IDOR)
+- Server-Side Request Forgery (SSRF)
+- Mass Assignment
+- Weak Authentication
+- Broken Authorization
+- Session Management Issues
+- File Upload Vulnerabilities
+- Cryptographic Weaknesses
+
+---
+
+OWASP Top 10 Coverage
+
+- A01 Broken Access Control
+- A02 Cryptographic Failures
+- A03 Injection
+- A04 Insecure Design
+- A05 Security Misconfiguration
+- A07 Identification & Authentication Failures
+- A09 Security Logging & Monitoring Failures
+
+---
+
+Vulnerability Reports
+
 reports/
 ├── sqli.md
 ├── xss.md
 ├── idor.md
 ├── ssrf.md
-├── massassignment.md
-```
+└── massassignment.md
 
 Each report includes:
 
-* Vulnerability Description
-* Root Cause Analysis
-* Exploitation Scenario
-* Impact Assessment
-* Remediation Guidance
+- Description
+- Root Cause
+- Exploitation
+- Impact
+- Remediation
 
 ---
 
-# 🧠 Skills Demonstrated
+Skills Demonstrated
 
-* Application Security
-* Vulnerability Assessment
-* Secure Coding
-* Authentication Security
-* Authorization Security
-* Session Management
-* File Upload Security
-* SSRF Testing
-* AI Security Testing
-* OWASP Top 10
-* Threat Modeling
-* Vulnerability Remediation
+- Application Security
+- Secure Coding
+- Vulnerability Assessment
+- Threat Modeling
+- OWASP Top 10
+- Penetration Testing
+- Vulnerability Remediation
 
 ---
 
-# 👨‍💻 Author
+Author
 
-## Deep Karmakar
+Deep Karmakar
 
-**Application Security • Backend Security • DevSecOps**
-
-### Connect
-
-* GitHub: https://github.com/deepkarmakar-appsec
-* LinkedIn: https://linkedin.com/in/deepkarmakar-appsec
-
----
-
-<div align="center">
-
-## ⚠️ Educational Purpose Only
-
+Application Security • Backend Security • DevSecOps
 **VaultScribe-Vuln** intentionally contains vulnerable code for educational purposes.
 
 **Never deploy this application to production environments.**
