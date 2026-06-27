@@ -1,4 +1,22 @@
-# 📊 VaultScribe-Vuln Dashboard
+<div align="center">
+
+# 🛡️ VaultScribe-Vuln
+
+### Intentionally Vulnerable Notes Platform • Application Security • Secure Coding • OWASP Top 10
+
+*An intentionally vulnerable Laravel application built for Application Security training, vulnerability research, secure coding practice, and penetration testing. Designed for educational use in isolated lab environments only.*
+
+<br>
+
+<img src="https://img.shields.io/badge/Laravel-12-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
+<img src="https://img.shields.io/badge/PHP-8.3-777BB4?style=for-the-badge&logo=php&logoColor=white">
+<img src="https://img.shields.io/badge/MySQL-8-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+<img src="https://img.shields.io/badge/OWASP-Top%2010-red?style=for-the-badge">
+<img src="https://img.shields.io/badge/Application-Security-orange?style=for-the-badge">
+<img src="https://img.shields.io/badge/Educational-Only-yellow?style=for-the-badge">
+<img src="https://img.shields.io/badge/Not%20for-Production-critical?style=for-the-badge">
+
+<br><br>
 
 ### Vulnerable Dashboard
 
