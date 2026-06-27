@@ -12,8 +12,7 @@ An intentionally vulnerable Laravel application built for Application Security t
 <img src="https://img.shields.io/badge/Educational-Only-yellow?style=for-the-badge">  
 <img src="https://img.shields.io/badge/Not%20for-Production-critical?style=for-the-badge">  <br><br>
 
-Vulnerable Dashboard
-
+![VaultScribe-Vuln Dashboard](https://github.com/user-attachments/assets/382b3d44-543b-4296-b7b2-86c946274492)
 
 
 
