@@ -1,123 +1,100 @@
-<div align="center">  🛡️ VaultScribe-Vuln
+🛡️ VaultScribe-Vuln
 
-Intentionally Vulnerable Notes Platform • Application Security • Secure Coding • OWASP Top 10
+Intentionally Vulnerable Laravel Application for Application Security Training
 
-An intentionally vulnerable Laravel application built for Application Security training, vulnerability research, secure coding practice, and penetration testing. Designed for educational use in isolated lab environments only.
+<p align="center">"Laravel" (https://img.shields.io/badge/Laravel-12-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+"PHP" (https://img.shields.io/badge/PHP-8.3-777BB4?style=for-the-badge&logo=php&logoColor=white)
+"MySQL" (https://img.shields.io/badge/MySQL-8-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+"OWASP Top 10" (https://img.shields.io/badge/OWASP-Top%2010-red?style=for-the-badge)
+"Educational Only" (https://img.shields.io/badge/Educational-Only-yellow?style=for-the-badge)
+"Not For Production" (https://img.shields.io/badge/Not%20for-Production-critical?style=for-the-badge)
 
-<br>  <img src="https://img.shields.io/badge/Laravel-12-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">  
-<img src="https://img.shields.io/badge/PHP-8.3-777BB4?style=for-the-badge&logo=php&logoColor=white">  
-<img src="https://img.shields.io/badge/MySQL-8-4479A1?style=for-the-badge&logo=mysql&logoColor=white">  
-<img src="https://img.shields.io/badge/OWASP-Top%2010-red?style=for-the-badge">  
-<img src="https://img.shields.io/badge/Application-Security-orange?style=for-the-badge">  
-<img src="https://img.shields.io/badge/Educational-Only-yellow?style=for-the-badge">  
-<img src="https://img.shields.io/badge/Not%20for-Production-critical?style=for-the-badge">  <br><br>
-
-![VaultScribe-Vuln Dashboard](https://github.com/user-attachments/assets/382b3d44-543b-4296-b7b2-86c946274492)
-
-
+</p>«VaultScribe-Vuln is an intentionally vulnerable Laravel application built to help developers and security engineers learn Application Security, Secure Coding, OWASP Top 10, and Penetration Testing in a safe, isolated lab environment.»
 
 ---
 
-📊 Vulnerability Statistics
+📸 Dashboard
 
-VaultScribe-Vuln intentionally includes multiple real-world web application vulnerabilities for security learning, secure coding practice, and penetration testing.
+<p align="center">
+<img src="https://github.com/user-attachments/assets/382b3d44-543b-4296-b7b2-86c946274492" width="95%">
+</p>---
 
-Categories Covered
+🎯 Objectives
 
-Authentication Vulnerabilities
-
-Authorization Vulnerabilities
-
-Session Management Vulnerabilities
-
-Access Control Vulnerabilities
-
-File Upload Vulnerabilities
-
-AI Security Vulnerabilities
-
-SSRF Vulnerabilities
-
-Security Misconfigurations
-
-Cryptographic Weaknesses
-
-
+- Learn Application Security
+- Practice Secure Coding
+- Perform Vulnerability Assessment
+- Understand OWASP Top 10
+- Practice Penetration Testing
+- Learn Vulnerability Remediation
 
 ---
 
-🧪 OWASP Top 10 Mapping
+🧩 Vulnerabilities Included
 
-A01 Broken Access Control
+Category| Included
+Authentication| ✅
+Authorization| ✅
+Broken Access Control| ✅
+SQL Injection| ✅
+Cross-Site Scripting (XSS)| ✅
+IDOR| ✅
+Mass Assignment| ✅
+SSRF| ✅
+File Upload Issues| ✅
+Session Management| ✅
+Security Misconfiguration| ✅
+Cryptographic Weaknesses| ✅
+AI Security| ✅
 
-A02 Cryptographic Failures
+---
 
-A03 Injection
+🛡️ OWASP Top 10 Coverage
 
-A04 Insecure Design
-
-A05 Security Misconfiguration
-
-A07 Identification and Authentication Failures
-
-A09 Security Logging and Monitoring Failures
-
-
+OWASP Category| Status
+A01 Broken Access Control| ✅
+A02 Cryptographic Failures| ✅
+A03 Injection| ✅
+A04 Insecure Design| ✅
+A05 Security Misconfiguration| ✅
+A07 Identification & Authentication Failures| ✅
+A09 Security Logging & Monitoring Failures| ✅
 
 ---
 
 📑 Vulnerability Reports
 
-reports/  
-├── sqli.md  
-├── xss.md  
-├── idor.md  
-├── ssrf.md  
-├── massassignment.md
+reports/
+├── sqli.md
+├── xss.md
+├── idor.md
+├── ssrf.md
+└── massassignment.md
 
-Each report includes:
+Each report contains:
 
-Vulnerability Description
-
-Root Cause Analysis
-
-Exploitation Scenario
-
-Impact Assessment
-
-Remediation Guidance
-
-
+- Root Cause
+- Exploitation
+- Impact
+- Remediation
+- References
 
 ---
 
-🧠 Skills Demonstrated
+💡 Skills Demonstrated
 
-Application Security
-
-Vulnerability Assessment
-
-Secure Coding
-
-Authentication Security
-
-Authorization Security
-
-Session Management
-
-File Upload Security
-
-SSRF Testing
-
-AI Security Testing
-
-OWASP Top 10
-
-Threat Modeling
-
-Vulnerability Remediation
-
-
+- Application Security
+- Secure Coding
+- Vulnerability Assessment
+- Threat Modeling
+- Authentication Security
+- Authorization Security
+- Session Security
+- File Upload Security
+- AI Security
+- SSRF Testing
+- OWASP Top 10
+- Secure Development
 
 ---
 
@@ -127,23 +104,18 @@ Deep Karmakar
 
 Application Security • Backend Security • DevSecOps
 
-Connect
+GitHub
+https://github.com/deepkarmakar-appsec
 
-GitHub: https://github.com/deepkarmakar-appsec
-
-LinkedIn: https://linkedin.com/in/deepkarmakar-appsec
-
-
+LinkedIn
+https://linkedin.com/in/deepkarmakar-appsec
 
 ---
 
-<div align="center">  ⚠️ Educational Purpose Only
+⚠️ Disclaimer
 
-VaultScribe-Vuln intentionally contains vulnerable code for educational purposes.
+«This project intentionally contains vulnerable code for educational purposes only.»
 
-Never deploy this application to production environments.
-
-Use only in local, virtualized, or isolated lab environments.
-
-</div>  
-Ajib type ka dikh raha hajb
+- ❌ Never deploy to production.
+- ✅ Use only in isolated lab environments.
+- ✅ Intended for Application Security training, secure coding practice, and vulnerability research.
